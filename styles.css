@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    height: 100%;
+}
+
+#main {
+    display: block;
+    width: 99%;
+    height: auto;
+    background-color: #EEEEEE;
+    margin: 0 auto;
+    padding: 2% 2%;
+}
+#title, p,figcaption, h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p,figcaption, h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-div{
+    background-color: #fffffd;
+    height: auto;
+    padding: 2%;
+}
+
+img {
+    display: block;
+    margin: 2% auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.list {
+   /* background-color: red; */
+    width: 50%;
+    max-width: 700px;
+    min-width: 300px;
+    margin: 4% auto;
+}
+
+ul{
+    margin-top: 7%;
+}
+
+ul > li {
+    margin: 2em auto;
+    
+}
+
+li > span {
+    font-weight: bold;
+}
+
+.citacao {
+    font-style: italic;
+    text-align: left;
+    font-size: 14px;
+}
+
+a{
+    color: #74638F;
+}
